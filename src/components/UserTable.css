@@ -1,0 +1,39 @@
+.user-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.user-table th,
+.user-table td {
+	border: 1px solid #ccc;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.user-table tbody tr {
+	cursor: pointer;
+}
+.user-table tbody tr:hover {
+	background-color: aliceblue;
+}
+
+.filter-group {
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+.filter-group select {
+	padding: 0.8rem;
+	font-size: 1.1rem;
+	border: none;
+	outline: 1px solid #1993b5;
+	border-radius: 3px;
+}
+
+@media (width<=768px) {
+	.filter-group select {
+		flex: 1;
+	}
+}
