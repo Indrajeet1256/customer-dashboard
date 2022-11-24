@@ -10,9 +10,9 @@
 .user-details h1 {
 	position: absolute;
 	left: 50%;
-	transform: translate(-50%, 100px);
+	transform: translate(-50%, 0px);
 	font-weight: 600;
-	font-size: min(3rem, 10vw);
+	font-size: min(2rem, 10vw);
 	white-space: nowrap;
 	border-bottom: 4px solid currentColor;
 }
